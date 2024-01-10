@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.xiaomi"
+#define LOG_TAG "android.hardware.biometrics.fingerprint@2.1-service.xiaomi"
 
 #include <hardware/hw_auth_token.h>
 
@@ -36,7 +36,7 @@ namespace android {
 namespace hardware {
 namespace biometrics {
 namespace fingerprint {
-namespace V2_3 {
+namespace V2_1 {
 namespace implementation {
 
 // Supported fingerprint HAL version
@@ -425,7 +425,7 @@ void BiometricsFingerprint::notify(const fingerprint_msg_t* msg) {
 }
 
 }  // namespace implementation
-}  // namespace V2_3
+}  // namespace V2_1
 }  // namespace fingerprint
 }  // namespace biometrics
 }  // namespace hardware
